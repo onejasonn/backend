@@ -334,3 +334,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Built with ❤️ for the Stellar ecosystem
+
+## Fix for Issue #195: Missing negative test cases for input validation
+
+Add negative test cases for all API endpoints covering malformed inputs, boundary values, and injection attempts. Current tests only cover happy-path scenarios.
